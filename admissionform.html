@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>College Admission Form</title>
+        <link rel="stylesheet" href="admissionform.css">
+    </head>
+    <body>
+        <table class="tb1">
+       <br>  <h1 class="heading">College Admission Form</h1>  <hr class="hr1"> 
+        <form id="f1"> <br> <br> <br> 
+
+            
+            <input type="checkbox" name="checkbox" id="checkbox" checked required>
+            <label for="email"><b class="b1">Email ID : </b></label> 
+            <input type="email" id="email" name="email" placeholder="Enter Your Email" required><br><br> <br>
+
+            <b class="b1">Student Name :</b> <br> <br>
+    
+            <label for="firstname">First Name:- </label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required> &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="lastname">Last Name:- </label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name" required><br><br>
+<br> 
+            
+    
+<b class="b1">Father's Name :</b> <br> <br>
+<label for="firstname">First Name:- </label>
+<input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required> &nbsp;&nbsp;&nbsp;&nbsp;
+<label for="lastname">Last Name:- </label>
+<input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name" required><br><br>
+<br> 
+
+
+
+<b class="b1">Mother's Name :</b> <br> <br>
+<label for="firstname">First Name:- </label>
+            <input type="text" id="firstname" name="firstname" placeholder="Enter Your First Name" required> &nbsp;&nbsp;&nbsp;&nbsp;
+            <label for="lastname">Last Name:- </label>
+            <input type="text" id="lastname" name="lastname" placeholder="Enter Your Last Name" required><br><br>
+<br> 
+    
+            <label><b class="b1">Gender:- </b></label>
+            <select name="Gender" id="">
+                <option value="Male">Select Your Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Other">Other</option>
+            </select> <br> <br> <br>
+        
+            
+    
+            <label for="address1"> <b class="b1">Address 1:- </b></label>
+            <input type="text" id="address1" placeholder="Enter Your Street" name="address1" required><br><br> <br>
+    
+            <label for="address2"><b class="b1">Address 2:- </b></label>
+            <input type="text" id="address2" placeholder="Enter Your locality" name="address2"><br><br> <br>
+    
+            
+    
+            <label  for="phone"><b class="b1">Phone No:- </b></label>
+            <select id="country-code" name="country-code">
+                <option value="91" selected>+91</option>
+                <option value="960">+960</option>
+                <option value="975">+975</option>
+                <option value="61">+61</option>
+                <option value="169">+169</option>
+                
+            </select>
+            <input class="b2" type="tel" id="phone" placeholder="Enter Your Phone Number" name="phone" pattern="[0-9]{10}" required><br><br> <br>
+    
+            <label for="country"><b class="b1">State :- </b></label>
+            <select id="country" name="country">
+                <option value="punjab" selected>Punjab</option>
+                <option value="Haryana">Haryana</option>
+                <option value="Chandigarh">Chandigarh</option>
+                <option value="Delhi">Delhi</option>
+                <option value="Himachal Pradhesh">Himachal Pradhesh</option>
+                
+                
+            </select><br><br><br>
+    
+            <label for="resume"><b class="b1">Passport Size Photograph :- </b></label>
+            <input type="file" id="resume" name="resume" accept=".pdf, .doc, .docx" required><br><br> <br>
+    
+            <label for="coverletter"><b class="b1">Review: </b></label><br>
+            <textarea id="coverletter" name="coverletter" placeholder="Write a review for us" rows="5" cols="40" required></textarea><br><br>
+    
+            <input type="checkbox" id="terms" name="terms" required>
+            <label for="terms">I agree to the terms and condtions</label><br><br>
+    
+            <input class="but" type="submit" value="Submit"> <br> <br>
+        </form>  </table> 
+    
+    
+    </body>
+    </html>
